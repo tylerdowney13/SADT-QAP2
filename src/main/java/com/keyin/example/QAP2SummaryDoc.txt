@@ -1,0 +1,19 @@
+Summary Document for QAP 2 (Tyler Downey)
+
+InventoryDB
+- getInventoryItems(): returns a new array list with the items of type InventoryItem.
+
+InventoryItem
+- InventoryItem(): constructor that takes the args name, quantity, and price, and creates a new instance of an inventory item.
+- getName(): function that returns the name (String) of an InventoryItem.
+- getQuantity(): function that returns the quantity (int) of an InventoryItem.
+- getPrice(): function that returns the price (double) of an InventoryItem.
+- setName(String name): function that sets the name of an InventoryItem.
+- setPrice(double price): function that sets the price of an InventoryItem.
+- setQuantity(int quantity): function that sets the quantity of an InventoryItem.
+
+InventoryExample
+- InventoryExample(InventoryDB inventoryDB): constructor that takes args inventoryDB and creates a new instance of InventoryExample with inventoryDB assigned to inventoryDB.
+- findInventoryItemByName(String itemName): function that finds an InventoryItem using a search string "itemName" and returns an InventoryItem instance with that name.
+- findInventoryItemByQuantity(int quantity): function that finds one or more InventoryItem instances using "quantity", adds those instances to an array, and then returns the size of the array.
+- findInventoryItemByPrice(int price): function that finds one or more InventoryItem instances using a search "price", adds those instances to an array, and then returns the size of the array.
